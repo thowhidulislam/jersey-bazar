@@ -1,0 +1,12 @@
+nav {
+    margin-top: 20px;
+}
+
+nav div {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav div a {
+    font-weight: bold;
+}

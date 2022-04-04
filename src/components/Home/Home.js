@@ -1,19 +1,39 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import useReviews from '../../hooks/useReviews/useReviews';
+import CustomReviews from '../CustomReviews/CustomReviews';
 import './Home.css'
 
 const Home = () => {
+    const [reviews, setReviews] = useReviews()
+    const reviewsLimited = reviews.slice(-3)
     return (
-        <div className='banner-section'>
-            <div className='banner-details'>
-                <h1>
-                    <span>Buy Football Clubs</span><br />
-                    <span><span className='banner-title-color'>Jersey's</span> Online.</span></h1>
-                <p>Jersey bazar specialises in selling football clubs jerseys and accessories online, offering competitive prices and excellent customer service! </p>
+        <section>
+            <div className='banner-section'>
+                <div className='banner-details'>
+                    <h1>
+                        <span>Buy Football Clubs</span><br />
+                        <span><span className='banner-title-color'>Jersey's</span> Online.</span></h1>
+                    <p>Jersey bazar specialises in selling football clubs jerseys and accessories online, offering competitive prices and excellent customer service! </p>
+                </div>
+                <div className='banner-image'>
+                    <img src="images\Real-Madrid-Home-Jersey-2021-22.jpg" alt="" />
+                </div>
             </div>
-            <div className='banner-image'>
-                <img src="images\Real-Madrid-Home-Jersey-2021-22.jpg" alt="" />
+            <div>
+                <h3>Custom Reviews({reviews.length})</h3>
+                <div className='custom-reviews-container'>
+
+                    {
+                        reviewsLimited.map(review => <CustomReviews
+                            key={review._id}
+                            review={review}
+                        ></CustomReviews>)
+                    }
+                </div>
+                <Link to='/reviews'><button>See All Reviews</button></Link>
             </div>
-        </div>
+        </section>
     );
 };
 

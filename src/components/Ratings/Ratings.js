@@ -8,7 +8,7 @@ const Ratings = () => {
     return (
         <div className='user-rating'>
             Ratings: <Rating
-                initialRating={4.5}
+                initialRating={4}
                 emptySymbol={<FontAwesomeIcon icon={faStar} />}
                 fullSymbol={<FontAwesomeIcon style={{ color: 'goldenrod' }} icon={faStar} />}
                 readonly

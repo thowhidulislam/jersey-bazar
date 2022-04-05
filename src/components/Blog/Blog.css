@@ -1,0 +1,17 @@
+.blog-container {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+div h3,
+p {
+    text-align: left;
+}
+
+.horizontal-line {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #046bce;
+}

@@ -20,8 +20,8 @@ const Home = () => {
                     <img src="images\Real-Madrid-Home-Jersey-2021-22.jpg" alt="" />
                 </div>
             </div>
-            <div>
-                <h3>Custom Reviews({reviews.length})</h3>
+            <div className='custom-reviews-section'>
+                <h2>Custom Reviews({reviews.length})</h2>
                 <div className='custom-reviews-container'>
 
                     {
@@ -31,7 +31,7 @@ const Home = () => {
                         ></CustomReviews>)
                     }
                 </div>
-                <Link to='/reviews'><button>See All Reviews</button></Link>
+                <Link to='/reviews'><button className='reviews-button'>See All Reviews</button></Link>
             </div>
         </section>
     );

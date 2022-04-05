@@ -36,6 +36,10 @@
 
 }
 
+.custom-reviews-section {
+    margin-top: 50px;
+}
+
 .custom-reviews-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -43,5 +47,15 @@
     margin-left: 50px;
     margin-top: 50px;
     margin-bottom: 30px;
+}
 
+.reviews-button {
+    background-color: #046bce;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
 }

@@ -3,42 +3,49 @@
         "_id": "624af89e6f51ea4cce73497e",
         "picture": "uifaces/user-6.jpg",
         "name": "Battle Ramsey",
-        "comment": "Just received my third LBJ jersey from this store and the quality is once again great. "
+        "comment": "Just received my third jersey from this store and the quality is once again great. ",
+        "ratings": 4.5
     },
     {
         "_id": "624af89e1da5638d66f7e42f",
         "picture": "uifaces/user-2.jpg",
         "name": "Blair Ball",
-        "comment": "Hey all you guys hating my took a while but it's a great jersey just know your size I wear an L shirt so I got an XL and it fits amazing"
+        "comment": "Hey all you guys hating my took a while but it's a great jersey just know your size I wear an L shirt so I got an XL and it fits amazing",
+        "ratings": 4
     },
     {
         "_id": "624af89e74b488b96029978d",
         "picture": "uifaces/user-3.jpg",
         "name": "Mendez Gregory",
-        "comment": "First time experience with this store and was pleasantly surprised. Purchased Chad Henne kids jersey for my son & Carmelo anthony jersey for my nephew."
+        "comment": "First time experience with this store and was pleasantly surprised. Purchased Chad Henne kids jersey for my son & Carmelo anthony jersey for my nephew.",
+        "ratings": 3
     },
     {
         "_id": "624af89eff208f700a826d23",
         "picture": "uifaces/user-7.jpg",
         "name": "Esmeralda Logan",
-        "comment": " thanks for the great service and quick delivery. A+ reccommended!"
+        "comment": " thanks for the great service and quick delivery. A+ reccommended!",
+        "ratings": 5
     },
     {
         "_id": "624af89e112eacf509ff07ef",
         "picture": "uifaces/user-5.jpg",
         "name": "Hull Gill",
-        "comment": "Quality is great, stitching is consistant. The colors are brilliant (even after the first wash). Would buy from again. "
+        "comment": "Quality is great, stitching is consistant. The colors are brilliant (even after the first wash). Would buy from again. ",
+        "ratings": 4
     },
     {
         "_id": "624af89e60cd23edd4ad8b6a",
         "picture": "uifaces/user-4.jpg",
         "name": "Felicia Pierce",
-        "comment": "Got two jerseys for my brother in law- great quality and fit. Shipping took about a week."
+        "comment": "Got two jerseys for my brother in law- great quality and fit. Shipping took about a week.",
+        "ratings": 5
     },
     {
         "_id": "624af89eb81acbe4344b7ed3",
         "picture": "uifaces/user-1.jpg",
         "name": "Kathleen Williamson",
-        "comment": "It’s a ok type cloth, good wear for general, the quality is ok as well, but can expect more in the future."
+        "comment": "It’s a ok type cloth, good wear for general, the quality is ok as well, but can expect more in the future.",
+        "ratings": 3.5
     }
 ]

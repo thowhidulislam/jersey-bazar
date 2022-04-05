@@ -79,7 +79,6 @@ const Dashboard = () => {
                     </PieChart>
                 </ResponsiveContainer>
             </div>
-
         </div>
     );
 };

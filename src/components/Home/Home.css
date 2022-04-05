@@ -39,5 +39,9 @@
 .custom-reviews-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 
 }

@@ -5,8 +5,8 @@
     margin-bottom: 30px;
 }
 
-div h3,
-p {
+.blog-title,
+.blog-text {
     text-align: left;
 }
 
